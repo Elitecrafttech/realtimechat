@@ -6,12 +6,6 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
   secure: true
 });
-// cloudinary.config({
-//   cloud_name: 'djxpvtp4y',
-//   api_key: '983851633392697',
-//   api_secret: 'yGXzn_iTFZoPHn3FWMG4XnmDWQY',
-//   secure: true
-// });
 
 
 export default cloudinary;
